@@ -5,9 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_normalcabbage</sprite>
+    <sprite>sprites\sp_sadcabbage</sprite>
+    <sprite>sprites\sp_rabbitstill</sprite>
+    <sprite>sprites\sp_rabbitmove</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_rabbit</object>
+    <object>objects\obj_cabbagenode</object>
+    <object>objects\obj_mouse</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_gameworld</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
